@@ -120,19 +120,19 @@ if (levels.includes("nivel3.html") && elem.id == "opcionDosN3") {
 function changeLevel(elem){
 
   if (levels.includes("nivel1.html") && elem.id == "opcionUno" || elem.id == "opcionTres" || elem.id == "opcionCuatro") {
-    location.replace("reiniciarJuego.html");
+    location.replace("../pages/reiniciarJuego.html");
   } if (levels.includes("nivel1.html") && elem.id == "opcionDos"){
-    location.replace("nivel2.html");
+    location.replace("../pages/nivel2.html");
   }
   if (levels.includes("nivel2.html") && elem.id == "opcionUnoN2" || elem.id == "opcionDosN2"){
-    location.replace("reiniciarJuego.html");
+    location.replace("../pages/reiniciarJuego.html");
   } if (levels.includes("nivel2.html") && elem.id == "opcionTresN2"){
-    location.replace("nivel3.html");
+    location.replace("../pages/nivel3.html");
   }
   if (levels.includes("nivel3.html") && elem.id == "opcionDosN3"){
-    location.replace("reiniciarJuego.html");
+    location.replace("../pages/reiniciarJuego.html");
   } if (levels.includes("nivel3.html") && elem.id == "opcionUnoN3"){
-    location.replace("mensaje.html");
+    location.replace("../pages/mensaje.html");
 }
 }
 
@@ -146,7 +146,7 @@ function textHelp(){
 }  
 function resetGame(element){
   if (element.id == "reiniciar"){
-    location.replace("nivel1.html");
+    location.replace("../pages/nivel1.html");
   }
 }
 
@@ -162,6 +162,6 @@ function enter(event) {
 }
 function menuPrincipal(element){
   if (element.id == "volver"){
-    location.replace("index.html");
+    location.replace("../index.html");
   }
 }
