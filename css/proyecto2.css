@@ -1,0 +1,16 @@
+body {  
+    background-image: url("https://cdn.wallpapersafari.com/7/21/Ppnfsx.jpg")  ;
+    
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+      
+    background-size: cover;
+   
+    margin-top: 10%;
+}
+#titulo {font-size: 5rem; text-align: center; font-family: fantasy;}
+#text {font-size: 4rem; text-align: center; font-family: monospace;}
+#reiniciar {margin: 0 auto; display: block; font-size: 3rem;}

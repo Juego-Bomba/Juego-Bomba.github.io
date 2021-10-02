@@ -1,0 +1,19 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="proyecto3.css"> 
+            <script src="niveles.js"></script>
+            <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        </head>
+        <body>
+            <h1 id="titulo">¡Felicitaciones!</h1>
+            <div id="mensaje">
+            <p id="texto2">Has conseguido desactivar la bomba. Por favor, quisieramos saber el nombre de nuestro héroe/heroína:</p>
+            <label id="subti" for="name">Escribe tu nombre</label>
+            <input type="text" value="" id="nombre" onkeydown="enter(event)">
+            </div>
+            <button id="volver" onclick="menuPrincipal(this)" style="display:none">Menú Principal</button>
+        </body>
+    </html>

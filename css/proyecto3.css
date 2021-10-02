@@ -1,0 +1,7 @@
+body {background: black;}
+#titulo {font-size: 4rem; text-align: center; font-family: fantasy; color: white;}
+#texto2 {font-size: 3rem; text-align: center; font-family: monospace; color: white;}
+#subti {color: white; font-size: 2.5rem; margin: 0 auto; display: block; text-align: center;}
+#nombre {font-size: 3rem; margin: 0 auto; display: block; margin-top: 3%;}
+#mensaje {color: white; font-size: 4rem; text-align: center; margin-top: 12%; font-family: monospace;}
+#volver {font-size: 2.5rem; margin: 0 auto; display:block; margin-top: 10%;}
