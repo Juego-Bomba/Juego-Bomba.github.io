@@ -52,7 +52,7 @@ button{font-size: 2rem; margin-top: 2%; font-family: fantasy;}
 }
 
 .sidebar .boton-cerrar {
-    position: absolute;
+    position: absolute; 
     top: 0.5rem;
     right: 1rem;
     font-size: 2rem;
