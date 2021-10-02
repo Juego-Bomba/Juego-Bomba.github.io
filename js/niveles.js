@@ -74,7 +74,7 @@ window.onload = function countDown() {
     }
    if (levels.includes("nivel2.html")){
     
-    let time_minutes = 4; // Value in minutes
+    let time_minutes = 2; // Value in minutes
     let time_seconds = 0; // Value in seconds
 
     let duration = time_minutes * 60 + time_seconds;
@@ -87,7 +87,7 @@ window.onload = function countDown() {
    } 
    if (levels.includes("nivel3.html")){
     
-    let time_minutes = 5; // Value in minutes
+    let time_minutes = 1; // Value in minutes
     let time_seconds = 0; // Value in seconds
 
     let duration = time_minutes * 60 + time_seconds;
