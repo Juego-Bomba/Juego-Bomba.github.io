@@ -15,7 +15,7 @@ a {font-size: 1.4rem; line-height: 150px; color: azure; margin-left: 12px; text-
 .bienvenida {font-size: 2rem; text-align: center; outline-style: dashed; color: azure;}
 
 body {  
-    background-image: url("https://www.wallpapertip.com/wmimgs/48-486092_atomic-bomb-explosion-over-city-buildings-hd-wallpaper.jpg");
+    background-image: src:img/fondo.jpg;
     
     background-position: center center;
 
