@@ -16,7 +16,7 @@ function timeLevel(){
     if (levels.includes("nivel2.html")){
     document.getElementById("tiempoNivel").innerText = "Tienes 2 minutos y 1 intento para evitar un desastre";
     } if (levels.includes("nivel3.html")){
-       document.getElementById("tiempoNivel").innerText = "Tienes 1 minuto y 1 intento para desactivar la bomba por completo"    
+       document.getElementById("tiempoNivel").innerText = "Tienes 1 minuto y 1 intento para desactivar la bomba por completo";    
      }
      else {return false;}    
 }
